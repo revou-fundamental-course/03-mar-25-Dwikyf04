@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.main-logo {
+  height: 50px;
+  width: 50px;
+  background-image: url(/assets/Me.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Navbar Item Styling */
+.nav-item {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar Item Hover Effect */
+.nav-item:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+/* home start */
+.home {
+  text-align: center;
+  padding: 50px;
+  /* background-image: url("background.jpg"); */
+  /* background-size: cover; */
+  color: white;
+}
+
+.home-page h1 {
+  font-size: 3em;
+}
+/* home end */
+
+.banner-img {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.banner-1 {
+  background-image: url(/assets/Me.jpeg);
+  /* display: none; */
+}
+.banner-2 {
+  background-image: url(/assets/Me4.jpeg);
+  /* display: none; */
+}
+.banner-3 {
+  background-image: url(/assets/Me3.jpeg);
+}
+
+.profile-page {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.profile-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-page .about,
+.profile-page .vision-mission {
+  margin: 20px 0;
+}
+/* <section id="OurProfile" class="menu">
+  <h2>About Our School</h2>
+  <div class="row">
+    <div class="menu-card"> */
+
+/* menu section */
+facilitation {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.facilitation h2 {
+  margin-bottom: 2rem;
+}
+
+.facilitation-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.facilitation-item {
+  text-align: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-image: url("/assets/kuliah.jpg"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .main-header {
+    flex-direction: column;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  .OurProfile {
+    flex-direction: column;
+  }
+  .OurProfile img {
+    margin-bottom: 20px;
+  }
+}
